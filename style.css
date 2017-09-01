@@ -35,14 +35,12 @@ blockquote > :last-child { margin-bottom: 0; }
 
 
 /** Wrapper */
-.content { max-width: 700px; margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
-@media screen and (max-width: 800px) {
-    .content { max-width: 700px; margin-right: auto; margin-left: auto; padding-right: 15px; padding-left: 15px; }
-}
+.content { max-width: 900px; margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
 
 /** Abstracts **/
+.abstracts { max-width: 700px; }
 
-article {margin-bottom: 30px}
+article {margin-bottom: 30px;  }
 article header { font-size: 14px; color: #696969; }
 article h2 { font-weight: 600; font-size: 20px; letter-spacing: 1px; line-height: 1; color: #111 }
 
@@ -52,6 +50,9 @@ article h2 { font-weight: 600; font-size: 20px; letter-spacing: 1px; line-height
 
 
 /** Schedules */
+
+.schedule {max-width: 900px;}
+
 /* table { border-spacing: 15px 5px; border: 2px solid black; margin-bottom: 15px; margin-left: auto; margin-right: auto; } */
 
   table {
